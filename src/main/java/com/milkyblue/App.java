@@ -1,13 +1,9 @@
 package com.milkyblue;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+// App class.
+public class App {
+    // Creates an anonymous instance of FibonacciGUI.
+    public static void main(String[] args) {
+        new FibonacciGUI();
     }
 }
